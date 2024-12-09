@@ -6,6 +6,7 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export ZSH="$XDG_CONFIG_HOME/oh-my-zsh" # Path to your oh-my-zsh installation.
 export EDITOR="/usr/bin/nvim"
 export DOTFILES="$HOME/.dotfiles"
+export PATH="$HOME/.bin:$PATH"
 
 # Set name of the theme to load
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
