@@ -23,6 +23,4 @@ if [ -f "$usermodmap" ]; then
     xmodmap "$usermodmap"
 fi
 
-feh --bg-scale ~/Pictures/Wallpapers/mono_dark_distortion_2.jpg &
-picom -b &
 exec i3
